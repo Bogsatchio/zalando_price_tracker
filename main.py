@@ -81,3 +81,4 @@ print(df)
 
 df.to_sql("Zalando_DB", con=eng, if_exists="append", index=False)
 print(df)
+print("Done!")
